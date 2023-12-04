@@ -1,6 +1,7 @@
 const reverseString = function(parameter) {
     let hldr = parameter.split("");
     let result =hldr.reverse().join('');
+    let nwresult = "'"+result+"'";
 
 };
 
