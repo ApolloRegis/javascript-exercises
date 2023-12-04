@@ -1,7 +1,4 @@
 const repeatString = function(string, num) {
-    for(let i=num;i>0;i--) {
-        console.log(string)
-       }
 };
 repeatString('hey', 3)
 
