@@ -5,7 +5,7 @@ const reverseString = function(parameter) {
     console.log(nwresult);
 };
 
-reverseString("hello there")
+reverseString()
 
 // Do not edit below this line
 module.exports = reverseString;
