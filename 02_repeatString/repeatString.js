@@ -1,4 +1,5 @@
 const repeatString = function(string, num) {
+    let inpt = ''
 };
 repeatString('hey', 3)
 
