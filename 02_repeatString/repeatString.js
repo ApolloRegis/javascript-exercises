@@ -1,11 +1,11 @@
 const repeatString = function(string, num) {
-    let inpt = ''
+    let inpt = ""
     for (i=num;i>0;i--){
         inpt += string
     }
-    console.log(inpt)
+    return(inpt)
 };
-repeatString('hey', 3)
+
 
 // Do not edit below this line
 module.exports = repeatString;
