@@ -3,6 +3,7 @@ const repeatString = function(string, num) {
     for (i=num;i>0;i--){
         inpt += string
     }
+    console.log(inpt)
 };
 repeatString('hey', 3)
 
