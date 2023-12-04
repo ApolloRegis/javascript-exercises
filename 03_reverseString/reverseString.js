@@ -1,7 +1,7 @@
 const reverseString = function(string) {
     let hldr = string.split("");
     let result =hldr.reverse().join('');
-    return nwresult;
+    return result;
 };
 
 
