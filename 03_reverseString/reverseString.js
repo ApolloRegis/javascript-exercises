@@ -1,4 +1,5 @@
 const reverseString = function(parameter) {
+    let hldr = parameter.split("");
 
 };
 
