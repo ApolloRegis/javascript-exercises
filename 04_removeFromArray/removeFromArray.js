@@ -1,4 +1,4 @@
-const removeFromArray = function() {
+const removeFromArray = function(array,...num) {
     let hldr = array.filter(item => !num.includes(item));
 
     return hldr;
