@@ -1,4 +1,4 @@
-const sumAll = function() {
+const sumAll = function(num1, num2) {
     let big = Math.max(num1, num2);
     let small = Math.min(num1, num2);
     let sum = big;
