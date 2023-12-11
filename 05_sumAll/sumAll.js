@@ -1,8 +1,8 @@
 const sumAll = function(num1, num2) {
     if (typeof num1 !== 'number' || isNaN(num1) || num1<0){
-        return "ERROR!";
+        return "ERROR";
       } if (typeof num2 !== 'number' || isNaN(num2) || num2<0) {
-        return "ERROR!";
+        return "ERROR";
       } else {
         
         let big = Math.max(num1, num2);
