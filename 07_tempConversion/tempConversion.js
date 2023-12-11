@@ -1,4 +1,7 @@
-const convertToCelsius = function() {
+const convertToCelsius = function(num) {
+  let nwnum = (num-32)/1.8;
+
+  return nwnum.toFixed(1); 
 };
 
 const convertToFahrenheit = function() {
